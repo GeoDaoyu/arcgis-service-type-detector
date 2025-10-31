@@ -5,8 +5,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["arcgis"],
+  "keywords": [
+    "arcgis"
+  ],
   "author": "GeoDaoyu <geodaoyu@foxmail.cn>",
   "license": "MIT",
-  "description": "An MCP server toool. Detector ArcGIS service type by server url."
+  "description": "An MCP server toool. Detector ArcGIS service type by server url.",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.2",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "typescript": "^5.9.3"
+  }
 }
