@@ -1,0 +1,12 @@
+{
+  "name": "arcgis-service-type-detector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["arcgis"],
+  "author": "GeoDaoyu <geodaoyu@foxmail.cn>",
+  "license": "MIT",
+  "description": "An MCP server toool. Detector ArcGIS service type by server url."
+}
