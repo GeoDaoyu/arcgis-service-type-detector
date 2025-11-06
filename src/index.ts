@@ -14,15 +14,15 @@ const server = new McpServer({
 
 // Register tools
 server.tool(
-  "getLayerType",
-  "Get ArcGIS Layer Type By ArcGIS Service URL",
+  "获取图层类型",
+  "通过ArcGIS Service URL获取图层类型",
   {
     url: z.string().describe("ArcGIS Service URL"),
   },
   async ({ url }) => {
     const response = await fetch(`${url}?f=json`);
     const serverInfo = await response.json();
-    const text = `It is a ${serverInfo.tileInfo ? "TileLayer" : "MapImageLayer"}`;
+    const text = `这是${serverInfo.tileInfo ? "TileLayer" : "MapImageLayer"}`;
     return {
       content: [
         {
