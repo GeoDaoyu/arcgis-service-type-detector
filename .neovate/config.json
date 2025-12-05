@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "myserver": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/Users/geodaoyu/Documents/GitHub/arcgis-service-type-detector/build/index.js"
+      ]
+    }
+  }
+}
